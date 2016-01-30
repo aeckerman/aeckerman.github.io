@@ -1,32 +1,8 @@
 /*
-	Spectral by HTML5 UP
+	Future Imperfect by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
-/* Icon */
-
-	.icon.major {
-		border: none;
-	}
-
-		.icon.major:before {
-			font-size: 3em;
-		}
-
-/* Form */
-
-	label {
-		color: #2E3842;
-	}
-
-	input[type="text"],
-	input[type="password"],
-	input[type="email"],
-	select,
-	textarea {
-		border: solid 1px #dfdfdf;
-	}
 
 /* Button */
 
@@ -35,61 +11,62 @@
 	input[type="button"],
 	button,
 	.button {
-		border: solid 2px #dfdfdf;
+		border: solid 1px #dedede;
 	}
 
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
-			border: 0 !important;
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="tel"],
+	select,
+	textarea {
+		border: solid 1px #dedede;
+	}
+
+/* Post */
+
+	.post {
+		border: solid 1px #dedede;
+	}
+
+		.post > header {
+			border-bottom: solid 1px #dedede;
 		}
 
-/* Page Wrapper + Menu */
+/* Mini Post */
 
-	#menu {
-		display: none;
-	}
-
-	body.is-menu-visible #menu {
-		display: block;
+	.mini-post {
+		border: solid 1px #dedede;
 	}
 
 /* Header */
 
-	#header nav > ul > li > a.menuToggle:after {
-		display: none;
+	#header {
+		border-bottom: solid 1px #dedede;
 	}
 
-/* Banner + Wrapper (style4) */
-
-	#banner,
-	.wrapper.style4 {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-	}
-
-		#banner:before,
-		.wrapper.style4:before {
-			display: none;
+		#header .links {
+			border-left: solid 1px #dedede;
 		}
 
-/* Banner */
-
-	#banner .more {
-		height: 4em;
-	}
-
-		#banner .more:after {
-			display: none;
+		#header .main ul li {
+			border-left: solid 1px #dedede;
 		}
 
-/* Main */
+/* Sidebar */
 
-	#main > header {
-		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
+	#sidebar > * {
+		border-top: solid 1px #dedede;
 	}
 
-		#main > header:before {
-			display: none;
+/* Menu */
+
+	#menu {
+		border-left: solid 1px #dedede;
+	}
+
+		#menu > * {
+			border-top: solid 1px #dedede;
 		}
