@@ -1,9 +1,6 @@
-#blubrackets.github.io/blubrakets
+#Andrews Page
+Andrews got a brand new page! (pun intended)
 
-#Posts
-<a href="https://blubrackets.github.io/blubrackets/#2">
-	Write your own interpreter in Python...
-</a>
 
-#News
-Brand new site blog-friendly...
+#Features
+It looks AWESOME!
